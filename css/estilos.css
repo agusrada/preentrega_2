@@ -4,12 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-.BODY{
+.body{
     font-family: Arial, Helvetica, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
     color:rgb(64, 236, 11);
     background-color: bisque;
 }
-.HEADER{
+.header{
     height: 100vh;
     background-image:url("../assets/imagenes/FONDO.jpg");
     background-size: cover;
@@ -19,24 +19,24 @@
   
 }
 
-.LOGONAV{
+.logonav{
     background-color: rgb(240, 18, 18);
  
      
    
 }
-.NAV1{
+.nav1{
     width:45%;
     display:inline-block;
    
     padding-top:20px;
 }
-.LOGO{
+.logo{
     width:30%;
     
  
 }
-.NAV1{
+.nav1{
   display:inline-block;
   width: 100%;
  
@@ -59,7 +59,7 @@
 }
 
 
-.TITUNO{
+.tituno{
     width: 50%;
     height: 30vh;
     margin:0 auto;
@@ -70,7 +70,7 @@
     font-size: large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.MAIN{
+.main{
     background-color: black;
     color:aliceblue;
     height: 100vh;
@@ -85,7 +85,7 @@
     color: black;
     
 }
-.TIPOSIMAGENES{
+.tiposimagenes{
     text-align:center;
     width: 90%;
     margin:0 auto;
@@ -93,33 +93,35 @@
     
 }
 
-.IMAGENES{
+.imagenes{
     margin-top:15vh;
     width:30%;
     display: inline-block;
     background-color:rgb(235, 15, 15);
     padding:10px;
-    
+    @media screen and (max: width 370px;) {
+        display: inline 
+    }
 }
 
-.FOOTER{
+.footer{
     background-color: red;
     color:rgb(76, 231, 14);
     height: 30VH;
     text-align: left;
 }
 
-.FOOTER p{
+.footer p{
     font-size: 1rem;
     font-family:'Times New Roman', Times, serif;
     padding-top: 8px;
 }
 
-.LINKIWF{
+.linkiwf{
     text-decoration: none;
     padding-left: 20px;
 }
-.ICONO{
+.icono{
     color:rgb(33, 33, 33);
     font-size: 4rem;
 }
