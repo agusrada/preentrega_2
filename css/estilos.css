@@ -13,7 +13,7 @@
     height: 100vh;
     background-image:url("../assets/imagenes/FONDO.jpg");
     background-size: cover;
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
   
@@ -28,7 +28,6 @@
 .nav1{
     width:45%;
     display:inline-block;
-   
     padding-top:20px;
 }
 .logo{
@@ -58,12 +57,17 @@
    font-size: 1.5rem;
 }
 
+.seccion-header{
+    display: grid;
+    place-content: center;
+    background-color: rgba(53, 221, 20, 0.406);
+    
+}
 
 .tituno{
     width: 50%;
     height: 30vh;
     margin:0 auto;
-    background-color: rgba(53, 221, 20, 0.406);
     margin-top:25vh;
     text-align: center;
     backdrop-filter: blur(12px);
@@ -92,6 +96,14 @@
    
     
 }
+.img{
+    display:grid;
+    place-content: center;    
+}
+.img h3{
+    text-align: center;
+
+}
 
 .imagenes{
     margin-top:15vh;
@@ -99,15 +111,13 @@
     display: inline-block;
     background-color:rgb(235, 15, 15);
     padding:10px;
-    @media screen and (max: width 370px;) {
-        display: inline 
-    }
+   
 }
 
 .footer{
     background-color: red;
     color:rgb(76, 231, 14);
-    height: 30VH;
+    height: auto;
     text-align: left;
 }
 
@@ -124,4 +134,11 @@
 .icono{
     color:rgb(33, 33, 33);
     font-size: 4rem;
+}
+@media screen and (max-width: 470px) {
+
+    .imagenes{
+        display: inline 
+    }
+  
 }
