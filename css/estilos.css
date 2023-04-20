@@ -130,10 +130,21 @@
 .linkiwf{
     text-decoration: none;
     padding-left: 20px;
+    place-content: center;
 }
 .icono{
     color:rgb(33, 33, 33);
     font-size: 4rem;
+}
+.mb{
+    background-color: darkslategray;
+    color: crimson;
+    margin: 0;
+    
+}
+.form-control{
+    background-color: darkslategray;
+    color: crimson;
 }
 @media screen and (max-width: 470px) {
 
